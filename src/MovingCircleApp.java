@@ -12,6 +12,6 @@ public class MovingCircleApp extends JFrame {
 
         setVisible(true);
 
-//        new Thread(circlePanel).start();
+        new Thread(circlePanel).start();
     }
 }
